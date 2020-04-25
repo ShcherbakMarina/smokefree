@@ -14,13 +14,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: grey;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -35,4 +34,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.circle {
+  position: absolute;
+  z-index: 1;
+  /*width: 450px;*/
+  /*height: 450px;*/
+  width: 150px;
+  height: 150px;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 120 120' version='1.1' xmlns='http://www.w3.org/2000/svg'><circle cx='60' cy='60' r='47' stroke='%23fff' stroke-width='10' stroke-dasharray='0 27' stroke-linecap='round' fill='transparent'/></svg>");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.text {
+  position: absolute;
+  font-size: 14px;
+}
+
+.text span {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.inner-circle,
+.outer-circle {
+  position: absolute;
+  border-radius: 50%;
+  /*border: 1px solid grey;*/
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.75);
+}
+
+.inner-circle {
+  /*width: 312px;*/
+  /*height: 312px;*/
+  width: 104px;
+  height: 104px;
+  background: grey;
+}
+
+.outer-circle {
+  /*width: 780px;*/
+  /*height: 780px;*/
+  width: 260px;
+  height: 260px;
+  background: cadetblue;
 }
