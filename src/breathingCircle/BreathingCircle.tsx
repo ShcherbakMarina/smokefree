@@ -45,8 +45,7 @@ export class BreathingCircle extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
+      <div className={'lung-exercise'}>
           <div className={'circle'} ref={this.onCircleRef} />
           <div className={'outer-circle'} />
           <div className={'inner-circle'} />
@@ -55,7 +54,6 @@ export class BreathingCircle extends React.Component {
             <span className={'inhale'} ref={this.onInhaleRef}>INHALE</span>
             <span className={'exhale'} ref={this.onExhaleRef}>EXHALE</span>
           </div>
-        </header>
       </div>
     );
   }

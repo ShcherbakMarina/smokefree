@@ -1,0 +1,57 @@
+.controls {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    transition: all .2s ease-in-out;
+    color: white;
+}
+
+.controls-icon {
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    fill: #fff;
+}
+
+.controls-icon:hover {
+    transform: scale(1.1);
+}
+
+.controls-icon.disabled {
+    cursor: default;
+    fill: grey;
+}
+
+.previous-arrow {
+    transform: rotateY(180deg);
+}
+
+.previous-arrow:hover {
+    transform: rotateY(180deg) scale(1.1);
+}
+
+.previous-arrow.disabled:hover {
+    transform: rotateY(180deg) scale(1);
+}
+
+.next-arrow.disabled:hover {
+    transform: none;
+}
+
+.sound-info {
+    width: 90px;
+    margin: 0 15px;
+}
+
+.heart-icon {
+    margin: 0 30px;
+    fill: transparent;
+    stroke: #fff;
+    stroke-width: 15px;
+}
+
+.heart-icon.liked,
+.heart-icon:hover {
+    fill: red;
+    stroke: none;
+}

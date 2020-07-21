@@ -1,0 +1,31 @@
+.blocked-content {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #4d4cac;
+    color: #fff;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.blocked-content:hover {
+    transform: scale(1.02);
+}
+
+.blocked-content__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin: 0 22px;
+    background: #ffac30;
+    border-radius: 10px;
+}
+
+a.blocked-content {
+    text-decoration: none;
+}

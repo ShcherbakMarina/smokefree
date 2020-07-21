@@ -1,0 +1,14 @@
+.curb-craving__save-action,
+.curb-craving__modal-edit-input {
+    display: none;
+}
+
+.edit-mode .curb-craving__save-action,
+.edit-mode .curb-craving__modal-edit-input {
+    display: inline-block;
+}
+
+.edit-mode .curb-craving__edit-action,
+.edit-mode .curb-craving__modal-element {
+    display: none;
+}

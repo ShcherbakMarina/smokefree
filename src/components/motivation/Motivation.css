@@ -1,0 +1,35 @@
+.motivation {
+    width: 70%;
+    min-width: 300px;
+    max-width: 610px;
+    margin: 0 auto;
+}
+
+.motivation__list {
+    list-style: none;
+}
+
+.motivation__list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.motivation__point {
+    margin: 0;
+}
+
+.edit-mode .motivation__edit-action,
+.edit-mode .motivation__list-element {
+    display: none;
+}
+
+.motivation__save-action,
+.motivation__edit-input {
+    display: none;
+}
+
+.edit-mode .motivation__save-action,
+.edit-mode .motivation__edit-input {
+    display: inline-block;
+}

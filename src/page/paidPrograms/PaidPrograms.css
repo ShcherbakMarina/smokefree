@@ -1,0 +1,55 @@
+.pricing-programs {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 50px;
+    list-style: none;
+}
+
+.pricing-programs__item {
+    width: 30%;
+    padding: 15px 0;
+    border-radius: 5px;
+    box-shadow:  0 3px 10px 0 rgba(0,0,0,0.5);
+}
+
+.pricing-programs__item-pricing {
+    display: flex;
+    justify-content: center;
+    height: 87px;
+    line-height: 78px;
+}
+
+.pricing-programs__item-price {
+    font-size: 72px;
+    font-weight: 600;
+}
+
+.pricing-programs__item-currency {
+    font-size: 24px;
+    line-height: 65px;
+}
+
+.pricing-programs__item-action {
+    width: 80%;
+    max-width: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: #4d4cac;
+    border: none;
+    border-radius: 5px;
+}
+
+.pricing-programs__item-features {
+    padding: 0 25px;
+    list-style: none;
+    text-align: left;
+}
+
+.pricing-programs__item-features li {
+    display: flex;
+    font-weight: 600;
+}

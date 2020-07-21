@@ -1,0 +1,55 @@
+.account-page {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.account-photo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.account-photo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: auto;
+}
+
+.account-form ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    text-align: left;
+}
+
+.account-form li {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-form input {
+    width: 250px;
+    height: 40px;
+    background-color: darkgrey;
+    border: none;
+    border-radius: 5px;
+}
+
+.account-info {
+    width: 350px;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.favorite-list {
+    list-style: none;
+    text-align: left;
+}

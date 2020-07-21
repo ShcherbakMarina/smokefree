@@ -1,0 +1,144 @@
+.curb-craving__form {
+    display: flex;
+    flex-direction: column;
+    /*align-items: flex-end;*/
+    width: 380px;
+    margin: 0 auto;
+}
+
+.curb-craving__input {
+    width: 350px;
+    height: 200px;
+    padding: 15px;
+    resize: none;
+    background: #e3edf7;
+    color: #334669;
+    border-radius: 5px;
+}
+
+.curb-craving__button {
+    width: 100px;
+    height: 30px;
+    margin: 15px 0;
+    line-height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: #E8F3FB;
+    box-shadow:  0 3px 10px 0 rgba(0,0,0,0.5);
+}
+
+.curb-craving__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.curb-craving__list li {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto 25px;
+    text-align: left;
+    box-shadow:  0 3px 10px 0 rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+.curb-craving__list li {
+    position: relative;
+}
+
+.curb-craving .close-icon {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.curb-craving .close-icon:hover {
+    cursor: pointer;
+}
+
+.curb-craving__date {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    font-size: 12px;
+}
+
+.curb-craving__info {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    margin: 0;
+    font-size: 12px;
+}
+
+.curb-craving__mood,
+.curb-craving__trigger {
+    margin-right: 10px;
+}
+
+.curb-craving__selection {
+    width: 90%;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.curb-craving__selection-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.curb-craving__selection-edit {
+    cursor: pointer;
+}
+
+.curb-craving__selection-edit:hover {
+    fill: #000;
+}
+
+.curb-craving__analytics ul {
+    list-style: none;
+    text-align: left;
+}
+
+#container {
+    width: 100%;
+    height: 400px;
+}
+
+.curb-craving__modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.curb-craving__modal {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.curb-craving__modal-list {
+    padding: 0 30px 30px;
+    list-style: none;
+    text-align: left;
+}
+
+.curb-craving__modal-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.curb-craving__modal-actions button {
+    width: 65px;
+    margin-left: 15px;
+}

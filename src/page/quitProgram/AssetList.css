@@ -1,0 +1,40 @@
+.asset-list__item {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto 25px;
+    border-radius: 5px;
+    box-shadow:  0 3px 10px 0 rgba(0,0,0,0.5);
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+}
+
+.asset-list__item:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    background-color: #F7F8FA;
+}
+
+.asset-list__item .controls-icon {
+    display: flex;
+    margin: 0 10px;
+    fill: grey;
+}
+
+.asset-list__item span {
+    flex-grow: 1;
+}
+
+.asset-list__item .heart-icon {
+    fill: transparent;
+    stroke: grey;
+    stroke-width: 30px;
+}
+
+.asset-list__item .heart-icon.liked,
+.asset-list__item .heart-icon:hover {
+    fill: red;
+    stroke: none;
+}

@@ -1,0 +1,12 @@
+.player-container {
+    display: flex;
+    overflow: hidden;
+}
+
+.asset-controls {
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background: dimgrey;
+}
